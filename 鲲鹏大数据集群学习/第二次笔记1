@@ -1,0 +1,25 @@
+## hadoop：hdfs架构及原理
+学习连接：https://blog.csdn.net/weixin_38750084/article/details/82963235
+## YARN的架构及原理
+学习连接：https://www.cnblogs.com/zimo-jing/p/8846569.html
+## MapReduce的工作原理
+学习连接：https://www.jianshu.com/p/1e542477b59a
+service iptables status
+ifconfig
+vi /etc/systemfig/network
+
+
+1.修改主机名
+ifconfig 查看主机配置
+vim /etc/sysconfig/network 修改主机名 例如：HOSTNAME=hsslave2
+2.配置ip地址 （配置到各自的ip）
+vim /etc/sysconfig/network-scripts/ifcfg-eth0 配置ip地址
+HOSTNAME=hsslave2
+3.配置mapping（节点电脑的全部都一样的内容）
+vi /etc/hosts
+4.关闭防火墙（包括自动开机时的检测）
+
+所有的配置的NameNode的ip地址
+192.168.1.119
+192.168.120
+192.168.1.121
